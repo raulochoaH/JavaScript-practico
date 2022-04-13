@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const coupons = [
     "Viaje70",
     "Black Friday",
@@ -40,7 +39,6 @@ function onClickButtonPriceDiscount() {
 
     resultP.innerText = "El precio con descuento son $" + precioConDescuento;
 
-=======
 const coupons = [
     "Viaje70",
     "Black Friday",
@@ -81,6 +79,4 @@ function onClickButtonPriceDiscount() {
     const resultP = document.getElementById("ResultP");
 
     resultP.innerText = "El precio con descuento son $" + precioConDescuento;
-
->>>>>>> b898a3dc632007140fc00c4a569931408e1006b4
 }

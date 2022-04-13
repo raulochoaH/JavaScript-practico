@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Código del cuadrado
 console.group("Cuadrados");
 
@@ -115,7 +114,6 @@ function calcularAreaTriangulo(){
 
 
 
-=======
 // Código del cuadrado
 console.group("Cuadrados");
 
@@ -166,19 +164,19 @@ function diametroCirculo(radio) {
 
 
 // PI
-const PI = Math.PI;
-console.log("PI es: " + PI + "cm");
+const  P = Math.PI;
+console.log("PI es: " + P + "cm");
 
 // Circunferencia
 function perimetroCirculo(radio) {
     const diametro = diametroCirculo(radio);
-    return diametro * PI;
+    return diametro * P;
 }
 
 
 // Área
 function areaCirculo(radio) {
-    return (radio * radio) * PI;
+    return (radio * radio) * P;
 }
 
 console.groupEnd();
@@ -232,4 +230,3 @@ function calcularAreaTriangulo(){
 
 
 
->>>>>>> b898a3dc632007140fc00c4a569931408e1006b4
